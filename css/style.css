@@ -1,0 +1,112 @@
+:root {
+/* color */
+  --bluesoft: #f9fbfc;
+  --blue: #3a88ff;
+  --purple: #6261d8;
+  --purplesoft: #e5e4ff;
+  --green: #316762;
+  --navy: #101014;
+  --grey: #dfe2e7;
+  --darkgrey: #949293;
+  --darkgrey2: #e7ebed;
+  --white: #ffffff;
+
+  /* font weight */
+  --fwextrabold: 800
+  --fwbold: 700
+  --fwsemibold: 600
+  --fwnormal: 500
+  --fwregular: 400
+  --fwlight: 300
+}
+
+body {
+  font-family: "Poppins", "sans-serif";
+  background: var(--bluesoft);
+}
+
+.big-header {
+    font-weight: var(--fwextrabold);
+    color: var(--navy);
+    font-size: 48px;
+    margin: 0;
+}
+.medium-header {
+    font-weight: var(--fwbold);
+    color: var(--navy);
+    font-size: 28px;
+    margin: 0;
+}
+.small-header {
+    font-weight: var(--fwbold);
+    color: var(--navy);
+    font-size: 22px;
+    margin: 0;
+}
+.primary-copy {
+    font-weight: var(--fwregular);
+    color: var(--darkgrey);
+    line-height: 28px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.btn-primary {
+    padding: 12px 20px 12px 20px;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: var(--fwsemibold);
+    border-radius: 15px;
+}
+
+.btn-primary:hover{
+    background: var(--navy);
+    color: var(--white);
+}
+.btn-secondary {
+    padding: 12px 20px 12px 20px;
+    background: var(--grey);
+    color: var(--navy);
+    font-size: 16px;
+    font-weight: var(--fwsemibold);
+    border-radius: 15px;
+    border: 0;
+}
+.btn-secondary:hover{
+    background: var(--navy);
+    color: var(--white) !important;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: var(--blue);
+    transition: all 0.3s ease;
+    font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item a {
+    color: var(--navy);
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 20px;
+    padding-left: 250x;
+    font-weight: var(--fwregular);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--navy);
+}
+
+.navbar {
+    --bs-navbar-padding-y : 0;
+}
+.navbar-cashier {
+    padding: 30px;
+    background: var(--white);
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+}
